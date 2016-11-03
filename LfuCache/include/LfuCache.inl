@@ -109,5 +109,5 @@ size_t LfuCache<T>::GetCapacity() const
 //-------------------------------------------------------------------------------------------------
 template<typename T> inline
 size_t LfuCache<T>::GetCount() const
-{ return static_cast<u32>(m_Cache.size()); }
+{ return m_Cache.size(); }
 
